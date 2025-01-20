@@ -1,7 +1,0 @@
-mkdir -p .git/hooks
-nano .git/hooks/post-commit
-#!/bin/sh
-git push origin main
-chmod +x .git/hooks/post-commit
-
-
