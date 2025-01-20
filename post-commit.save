@@ -1,8 +1,0 @@
-#!/bin/sh
-echo "Running post-commit hook..."
-
-# Push committed changes to the remote branch
-git push origin main
-
-# Notify the user
-echo "Changes have been successfully pushed to the remote repository."
